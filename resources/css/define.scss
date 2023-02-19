@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'mysans';
+    src: url("public/fonts/IRANSansWeb(FaNum).ttf");
+}
+body{
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+
+}
+*{
+    box-sizing: border-box;
+
+}
+
+ul{
+    list-style-type: none;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+

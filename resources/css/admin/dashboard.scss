@@ -1,0 +1,170 @@
+div.container{
+    padding-right: 15rem;
+}
+div.main-dashboard{
+    height: 100vh;
+    background-color: #9999f1;
+    h2{
+        padding-right: 4rem;
+        color: #eff1f4;
+    }
+    div{
+        width: 95%;
+        display: flex;
+        align-items: center;
+        div:nth-child(1){
+            ul{
+                display: flex;
+                justify-content: right;
+                align-items: center;
+                li{
+                    padding-right: 2rem;
+                }
+            }
+            li:hover{
+                color: #07a407;
+                cursor: pointer;
+
+            }
+        }
+        div:nth-child(2){
+            ul{
+                display: flex;
+                justify-content: left;
+                margin-right: 25.3rem;
+                color: white;
+                li{
+                    padding-right: 2rem;
+                }
+            }
+            li:hover{
+                color: #f40729;
+                cursor: pointer;
+            }
+        }
+
+      }
+
+}
+
+div.dashboard-header{
+    background-color: #1a202c;
+    color: white;
+    height: 4.5rem;
+    padding: .5rem;
+    border-radius: 0 0 4px 4px;
+    header{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        div:nth-child(1){
+            ul{
+                display: flex;
+                justify-content: right;
+                align-items: center;
+                li{
+                    padding-right: 1rem;
+                }
+            }
+            li:hover{
+                color: #07a407;
+                cursor: pointer;
+
+            }
+        }
+        div:nth-child(2){
+
+        img{
+            width: 10rem;
+            height: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        }
+        div:nth-child(3){
+            ul{
+                display: flex;
+                justify-content: left;
+                color: white;
+                li{
+                    padding-right: 2rem;
+                }
+            }
+            li:hover{
+                color: #f40729;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+div.main-dashboard{
+    padding: .5rem;
+
+    .main-dashboard-article{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #6259ca;
+        border-radius: 15px;
+        margin-top: 2rem;
+        h2{
+            font-weight: bolder;
+        }
+        p{
+            color: #76060a;
+        }
+    }
+}
+
+div.dashboard-sidebar{
+    background-color: #2d3748;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 15rem;
+    height: 100vh;
+    padding-top: 2rem;
+
+
+        .dashboard-logo{
+            display: grid;
+            justify-content: center;
+
+            img {
+                width: 10rem;
+                height: 13.5rem;
+            }
+
+        }
+    }
+
+div.dashboard-sidebar-menu{
+    margin-top: 2rem;
+    display: grid;
+    ul{
+    display: grid;
+justify-items: right;
+
+        li{
+
+            color: white;
+            width: 11rem;
+            padding-top: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
